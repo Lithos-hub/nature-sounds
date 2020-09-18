@@ -1,1 +1,151 @@
-/* You can add global styles to this file, and also import other style files */
+.navbar {
+    background-image: url('src\assets\img\navbar.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgb(18, 10, 34) !important;
+    border: none;
+    box-shadow: 0 0 20px black;
+}
+
+.navbar-brand {
+    background: url('src\assets\img\navbar.jpg');
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-position: center;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-nav {
+    top: 5%;
+    text-align: center;
+}
+
+.nav-link {
+    color: rgb(201, 201, 204) !important;
+    text-shadow: 0 0 20px black;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.footerbar {
+    background-color: #1C2331;
+    color: white;
+}
+
+.footerbar-2 {
+    background-color: #161C27;
+    color: white;
+}
+
+.page-footer {
+    bottom: 0px;
+    width: 100%;
+    position: relative;
+}
+
+body {
+    background-color: #191d25;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-align: center;
+    height: 350px;
+}
+
+#icon-home {
+    font-size: 50px;
+}
+
+#footer-icons {
+    text-align: center;
+    position: relative;
+}
+
+#footer-icon:hover {
+    color: white;
+    cursor: pointer;
+    transition: 1s;
+}
+
+#icon-home {
+    color: rgb(13, 187, 240);
+}
+
+#icon-home:hover {
+    color: rgb(219, 219, 219);
+    cursor: pointer;
+    transition: 1s;
+}
+
+#icon-faq {
+    font-size: 50px;
+    color: rgb(13, 187, 240);
+}
+
+#mode-buttons {
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+#dark-button:hover {
+    color: rgb(13, 187, 240);
+    background-color: transparent;
+    transition: 0.5s;
+}
+
+#light-button:hover {
+    color: rgb(13, 187, 240);
+    background-color: transparent;
+    border: none;
+    transition: 0.5s;
+}
+
+#dark-button:focus {
+    outline: none;
+}
+
+#light-button:focus {
+    outline: none;
+}
+
+.text-oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+#jumbo-about {
+    color: white;
+}
+
+#jumbo-faq {
+    color: white;
+}
+
+#about-wall {
+    background-image: url('src\assets\img\about-wall.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    bottom: 0px;
+}
+
+#outlet {
+    top: 0px;
+    height: 100%;
+    bottom: 0px;
+}

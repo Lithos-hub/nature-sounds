@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "app-sonidos"
+    }
+  },
+  "defaultProject": "app-sonidos",
+  "cli": {
+    "analytics": "b8659faa-841f-4f1c-93db-81e06e3b39c8"
+  }
 }
